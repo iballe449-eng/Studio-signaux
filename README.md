@@ -7,7 +7,7 @@ C’est une application web installable (PWA) : une fois en ligne sur GitHub Pag
 ## Mettre en ligne sur GitHub Pages
 
 1. Sur github.com, crée un nouveau dépôt **public** (par exemple `studio-signaux`).
-2. Dans le dépôt : **Add file → Upload files**, puis glisse **tout le contenu** du dossier (index.html, sw.js, manifest.webmanifest, .nojekyll, le dossier icons). Clique **Commit changes**.
+2. Dans le dépôt : **Add file → Upload files**, puis sélectionne **tous les fichiers** du dossier (index.html, sw.js, manifest.webmanifest et les 5 icônes .png). Clique **Commit changes**.
 3. **Settings → Pages** → Source : **Deploy from a branch** → Branch : **main** / **(root)** → **Save**.
 4. Attends une à deux minutes. L’adresse s’affiche en haut de la page Pages :
    `https://TON-NOM.github.io/studio-signaux/`
@@ -30,5 +30,4 @@ C’est une application web installable (PWA) : une fois en ligne sur GitHub Pag
 | `index.html` | toute l’application |
 | `manifest.webmanifest` | nom, icônes et couleurs de l’application installée |
 | `sw.js` | mise en cache pour l’utilisation hors ligne |
-| `icons/` | icônes (Android, iPhone, onglet du navigateur) |
-| `.nojekyll` | dit à GitHub Pages de servir les fichiers tels quels |
+| `*.png` | icônes (Android, iPhone, onglet du navigateur) |
